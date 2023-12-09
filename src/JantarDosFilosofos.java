@@ -11,12 +11,12 @@ class Filosofo extends Thread {
 
     private void pensar() throws InterruptedException {
         System.out.println("Filosofo " + id + " esta pensando.");
-        Thread.sleep(3000); // Simulando pensamento
+        Thread.sleep(3000); 
     }
 
     private void comer() throws InterruptedException {
         System.out.println("Filosofo " + id + " esta comendo.");
-        Thread.sleep(3000); // Simulando comer
+        Thread.sleep(3000); 
     }
 
     @Override
